@@ -1,0 +1,109 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_stakeholder",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "newScore",
+						"type": "uint256"
+					}
+				],
+				"name": "QualityScoreUpdated",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "qualityScore",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "singleStakeholder",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newScore",
+						"type": "uint256"
+					}
+				],
+				"name": "updateQualityScore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Week 2 Act - QualContr w SingStakeh.sol": "QualityContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Week 2 Act - QualContr w SingStakeh.sol": {
+			"keccak256": "0xb25f6bbae527777f0393a5a371818b4091b7899f182b99a852a91f54427f3f1d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a5c4d0d1a98bfa3c9ad6eff79d4a5b8c0d1c4e36fa95c88a7c881822be38bb6a",
+				"dweb:/ipfs/QmPv8kbJjfpZ1QyD55WtZVKUeXhnZtGWuBHZpEyVDqfn8f"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,109 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "initialStudent",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "newScore",
+						"type": "uint256"
+					}
+				],
+				"name": "ExamScoreUpdated",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "examScore",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "singleStudent",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newScore",
+						"type": "uint256"
+					}
+				],
+				"name": "updateScore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Week 2 - Demo Smart Contract.sol": "ExamScoreContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Week 2 - Demo Smart Contract.sol": {
+			"keccak256": "0xc7e0942aff6026aa2b948f5e40a7fa806c9faa455a5ccdda4f254b448e86fab8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0f4c2fc2f4e4bba1bfe60815524573a24312bc6d7e8974a8b86e50d0a45c1e05",
+				"dweb:/ipfs/QmYfJkFNudFr5M3KYmSCjNZ8FoJURw2HEsg8xYpxqpdSpd"
+			]
+		}
+	},
+	"version": 1
+}
